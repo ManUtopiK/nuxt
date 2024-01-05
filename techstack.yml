@@ -1,0 +1,44 @@
+repo_name: ManUtopiK/nuxt
+report_id: ebc7443d21f0d1b3116042f4a79708e9
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:21:58+00:00'
+requested_by: pa-bouly
+provider: github
+branch: working
+detected_tools_count: 3
+tools:
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/ManUtopiK/nuxt/blob/working/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Clark Du
+  last_updated_on: 2019-06-28 09:39:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ManUtopiK/nuxt
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/ManUtopiK/nuxt/blob/working/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Clark Du
+  last_updated_on: 2019-06-28 09:39:11.000000000 Z
